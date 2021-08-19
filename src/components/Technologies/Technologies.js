@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiJavascript1, DiReact, DiUnitySmall } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -17,7 +17,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, JavaScript, HTML
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,17 +27,27 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js
+            Node.js, Python, C#, Java, SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem"></DiZend>
+        <DiJavascript1 size="3rem"></DiJavascript1>
         <ListContainer>
-          <ListTitle>UI-UX</ListTitle>
+          <ListTitle>Other Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            UI
+            C++, C, GLSL, ShaderLab
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiUnitySmall size="3rem"></DiUnitySmall>
+        <ListContainer>
+          <ListTitle>Game Engines</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Unity, Godot, and Phaser
           </ListParagraph>
         </ListContainer>
       </ListItem>

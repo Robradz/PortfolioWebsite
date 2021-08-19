@@ -44,11 +44,16 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a self-motivated student and programmer. I love the feeling of finishing a coding project that I worked hard on, 
-        which is what drives my passion for coding.
+        My name is Robert, but everyone calls me Robbie. Outside of work and school, I love to play basketball and volleyball,
+        play board games, run, hike, and read books on theology, fantasy, and personal growth.<br/><br/>
+
+        I also enjoy school, and I love the feeling of finishing a coding project that I worked hard on. 
         <br/>I am really looking forward to growing in my technical skills and my character as I enter the professional world. 
+
+        <br/><br/> This is a look at my coding history:
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
