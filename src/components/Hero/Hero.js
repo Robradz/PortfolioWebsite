@@ -12,11 +12,14 @@ const Hero = (props) => (
         I'm Robbie
       </SectionTitle>
       <SectionText>
-        We the best music
+        I'm studying Computer Science and Game Design at UC Santa Cruz.<br/>
+        Looking for software development jobs for after graduation in June 2022!
       </SectionText>
-      <Button onClick={()=> window.location - 'https://google.com'}>Yeet</Button>
+      <Button onClick={() => { window.location = '#about'}}>About Me</Button>
     </LeftSection>
   </Section>
 );
+
+//onClick={props.handleClick}
 
 export default Hero;
