@@ -49,5 +49,5 @@ export const data = [
   { number: '230+', text: 'Views on my itch.io games'},
   { number: '320+', text: 'Github contributions in the last year', },
   { number: '9', text: 'Published Games', },
-  { number: '396th', text: 'Best PUBG Player in North America for a few minutes in 2018', }
+  { number: '3.87', text: 'College GPA', }
 ];

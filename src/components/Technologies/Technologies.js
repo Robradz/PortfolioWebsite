@@ -7,9 +7,6 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I know everything about every technologies
-    </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem"></DiReact>
