@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiJavascript1, DiReact, DiUnitySmall } from 'react-icons/di';
+import { DiFirebase, DiJavascript1, DiReact, DiUnitySmall, DiVisualstudio } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -45,6 +45,16 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             Unity, Godot, and Phaser
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiVisualstudio size="3rem"></DiVisualstudio>
+        <ListContainer>
+          <ListTitle>Other Proficiencies</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Visual Studio and VS Code, Git/Github, Vim, Windows, and Unix
           </ListParagraph>
         </ListContainer>
       </ListItem>
