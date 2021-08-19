@@ -1,13 +1,20 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaItchIo } from 'react-icons/fa';
+import Button from '../../styles/GlobalComponents/Button';
+import Link from 'next/link'
 
-import { SocialIcons } from '../Header/HeaderStyles';
+import { SocialIcons, NavLink } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
+    <Button onClick={() => { 
+      window.scrollTo({top: 0, behavior: "smooth"});
+      window.history.pushState({}, null, "/");
+      }}>Back to top
+    </Button>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -20,7 +27,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Dabbing on the haters</Slogan>
+          <Slogan>Please hire me</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/robradz">
