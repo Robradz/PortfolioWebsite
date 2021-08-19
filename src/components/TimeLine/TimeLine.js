@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I started lernin cod in hig skool
+        I am a self-motivated student and programmer. I love the feeling of finishing a coding project that I worked hard on, 
+        which is what drives my passion for coding.
+        <br/>I am really looking forward to growing in my technical skills and my character as I enter the professional world. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
