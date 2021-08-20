@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: 'Unity Games',
-    description: "A collection of games created with the Unity engine using C# scripts. These games explore 5 different genres. The newest game was created for the 2021 Global Game Jam with team of 4 people.",
-      image: '/images/itch.png',
-      tags: ['Unity', 'Visual Studio', 'C#'],
+    description: "A collection of games created with the Unity engine using C# scripts. These games explore 5 different genres. The first 4 were created from start to finish by myself with the help of Gamedev.tv's 'Complete C# Unity Game Developer 3D' course. The newest game was created for the 2021 Global Game Jam with team of 4 people, in which I was responsible for the physics of the character movement and the level layout.",
+    image: '/images/itch.png',
+    tags: ['Unity', 'Visual Studio', 'C#'],
     source: 'https://robradz.itch.io/',
     visit: 'https://github.com/Robradz?tab=repositories&q=&type=&language=c%23&sort=',
     id: 0,
@@ -18,22 +18,13 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
+    title: 'Elemental Models',
+    description:"A graphics demonstration using ShaderLab, a language similar to GLSL. This was made as part of a group project with 2 other students. I was responcible for the changing and mapping of the textures (using ShaderLab), the particle systems (using C#), and the background.",
+    image: '/images/ElementalModels_Moment.jpg',
+    tags: ['ShaderLab', 'C#', 'Unity', 'Visual Studio'],
+    source: 'https://youtu.be/d4jzIQ_Ki3M',
+    visit: 'https://github.com/Robradz/Fire-and-Water/tree/main/CMPM%20163%20Final%20Project',
+    id: 1,
   },
 ];
 
