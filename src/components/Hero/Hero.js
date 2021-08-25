@@ -20,6 +20,4 @@ const Hero = (props) => (
   </Section>
 );
 
-//onClick={props.handleClick}
-
 export default Hero;
