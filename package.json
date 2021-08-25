@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "aws s3 sync out/ s3://robradz-portfolio"
+    "deploy": "aws s3 sync out/ s3://robbieradzville.com"
   },
   "dependencies": {
     "next": "^11.1.0",
