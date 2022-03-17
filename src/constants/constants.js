@@ -1,5 +1,17 @@
 export const projects = [
   {
+    title: 'OpenMRKT',
+    description:"OpenMRKT is a Web Application created for CSE 183: Web Applications at UC Santa Cruz. The website is designed to mimic facebook marketplace using " + 
+    "Google's Material UI React components. I designed and programmed an API to service backend HTTP requests which were routed through Express.js. " + 
+    "I also built a PostgreSQL database (running in a Docker container) for storing data for users, listings, communication, and navigation. I worked with two " + 
+    "other students to create this website in 2.5 weeks",
+    image: '/images/OpenMRKT.png',
+    tags: ['React.js', 'Node.js', 'PostgreSQL', 'Docker'],
+    source: 'https://www.youtube.com/watch?v=9bQVXOrRGdk',
+    visit: 'https://www.youtube.com/watch?v=9bQVXOrRGdk',
+    id: 0,
+  },
+  {
     title: 'Phaser Games',
     description:"A collection of games created with the Phaser engine using JavaScript. These were created with a team of 4 people, " +
     "including 2 artists and 2 programmers who also created the audio and the UI. I was responsible for coding much of the player controls" + 
@@ -17,7 +29,7 @@ export const projects = [
     tags: ['Unity', 'Visual Studio', 'C#'],
     source: 'https://robradz.itch.io/',
     visit: 'https://github.com/Robradz?tab=repositories&q=&type=&language=c%23&sort=',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Elemental Models',
@@ -26,7 +38,7 @@ export const projects = [
     tags: ['ShaderLab', 'C#', 'Unity', 'Visual Studio'],
     source: 'https://youtu.be/d4jzIQ_Ki3M',
     visit: 'https://github.com/Robradz/Fire-and-Water/tree/main/CMPM%20163%20Final%20Project',
-    id: 1,
+    id: 3,
   },
 ];
 
